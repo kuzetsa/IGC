@@ -846,7 +846,6 @@ foreach(_compilerFlagName IN ITEMS "CMAKE_CXX_FLAGS" "CMAKE_C_FLAGS")
           -mstackrealign
           -fms-extensions
           -fvisibility=hidden
-          -Werror
           -Wno-unused-parameter
           -Wno-missing-field-initializers
           -Wwrite-strings
